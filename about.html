@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu - Minh Tuấn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="Css/Style.css">
+</head>
+<body class="bg-white text-slate-900 font-sans">
+
+    <!-- NAVIGATION -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 bg-white/90 backdrop-blur-md border-b border-slate-100">
+        <div class="container mx-auto px-6 md:px-12 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tighter flex items-center gap-2">
+                <div class="w-8 h-8 bg-black rounded-full flex items-center justify-center text-white text-sm">D</div>
+                <span>Designer.</span>
+            </a>
+            <div class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-600">
+                <a href="index.html#work" class="hover:text-black transition-colors">Dự án</a>
+                <a href="about.html" class="text-black font-bold">Giới thiệu</a>
+                <a href="contact.html" class="px-5 py-2.5 bg-black text-white rounded-full hover:bg-slate-800 transition-all">Liên hệ</a>
+            </div>
+             <!-- Mobile Menu Button -->
+             <button class="md:hidden" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+         <!-- Mobile Menu Overlay -->
+         <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-white border-b border-slate-100 py-6 px-6 flex flex-col gap-4 shadow-xl">
+            <a href="index.html" class="text-lg font-medium text-left py-2">Trang chủ</a>
+            <a href="about.html" class="text-lg font-medium text-left py-2 text-blue-600">Giới thiệu</a>
+            <a href="contact.html" class="text-lg font-medium text-left py-2">Liên hệ</a>
+        </div>
+    </nav>
+
+    <!-- ABOUT CONTENT -->
+    <section class="pt-32 pb-24">
+        <div class="container mx-auto px-6 md:px-12">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+                <!-- Left: Text -->
+                <div class="lg:w-1/2">
+                   <h2 class="text-3xl md:text-5xl font-bold mb-6">Không chỉ là Designer, tôi là một người kể chuyện.</h2>
+                   <div class="space-y-4 text-slate-600 text-lg leading-relaxed">
+                     <p>
+                       Với 3+ năm kinh nghiệm làm việc tại Product Agency và Startup, tôi đã học được cách cân bằng giữa <strong class="text-slate-900">nhu cầu người dùng</strong> và <strong class="text-slate-900">mục tiêu kinh doanh</strong>.
+                     </p>
+                     <p>
+                       Triết lý thiết kế của tôi là "Invisible Design" — thiết kế tốt là khi người dùng không nhận ra sự tồn tại của nó, họ chỉ cảm thấy mọi thứ thật trôi chảy.
+                     </p>
+                     <p>
+                        Ngoài công việc, tôi đam mê nhiếp ảnh đường phố và tìm kiếm cảm hứng từ kiến trúc đô thị.
+                     </p>
+                   </div>
+   
+                   <div class="mt-10">
+                     <h3 class="font-bold text-sm uppercase tracking-wider mb-4 text-slate-400">Kỹ năng & Công cụ</h3>
+                     <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-slate-100 rounded-lg text-slate-700 text-sm">Figma</span>
+                        <span class="px-4 py-2 bg-slate-100 rounded-lg text-slate-700 text-sm">Adobe XD</span>
+                        <span class="px-4 py-2 bg-slate-100 rounded-lg text-slate-700 text-sm">Protopie</span>
+                        <span class="px-4 py-2 bg-slate-100 rounded-lg text-slate-700 text-sm">HTML/CSS</span>
+                        <span class="px-4 py-2 bg-slate-100 rounded-lg text-slate-700 text-sm">Webflow</span>
+                        <span class="px-4 py-2 bg-slate-100 rounded-lg text-slate-700 text-sm">Maze (Testing)</span>
+                     </div>
+                   </div>
+                </div>
+   
+                <!-- Right: Stats Card -->
+                <div class="lg:w-1/2 w-full">
+                   <div class="bg-slate-900 text-white p-10 rounded-3xl shadow-2xl relative overflow-hidden">
+                     <!-- Decorative circle -->
+                     <div class="absolute top-0 right-0 w-64 h-64 bg-blue-600 rounded-full opacity-20 blur-3xl translate-x-1/3 -translate-y-1/3"></div>
+                     
+                     <div class="relative z-10 grid grid-cols-2 gap-8">
+                        <div>
+                          <div class="text-4xl font-bold mb-1 text-blue-400">3+</div>
+                          <div class="text-sm text-slate-400 font-medium">Năm kinh nghiệm</div>
+                        </div>
+                        <div>
+                          <div class="text-4xl font-bold mb-1 text-purple-400">20+</div>
+                          <div class="text-sm text-slate-400 font-medium">Dự án thành công</div>
+                        </div>
+                        <div>
+                          <div class="text-4xl font-bold mb-1 text-emerald-400">100%</div>
+                          <div class="text-sm text-slate-400 font-medium">Giao đúng hạn</div>
+                        </div>
+                        <div>
+                           <div class="flex items-center gap-2 mb-2 text-amber-400">
+                             <i data-lucide="check-circle" class="fill-current text-slate-900 bg-amber-400 rounded-full"></i>
+                           </div>
+                           <div class="text-sm text-slate-400 font-medium">Google UX Cert</div>
+                        </div>
+                     </div>
+   
+                     <div class="mt-10 pt-8 border-t border-slate-800">
+                        <p class="italic text-slate-300">"Lập có khả năng biến những yêu cầu phức tạp thành giao diện cực kỳ dễ hiểu. Rất vui được làm việc cùng!"</p>
+                        <div class="mt-4 flex items-center gap-3">
+                           <div class="w-10 h-10 bg-slate-700 rounded-full flex items-center justify-center">A</div>
+                           <div>
+                             <div class="font-bold text-sm">Navy Linh</div>
+                             <div class="text-xs text-slate-500">PM @ TechCorp</div>
+                           </div>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <script src="Js/script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
